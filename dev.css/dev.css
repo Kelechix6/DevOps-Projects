@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #151414;
+  color: #fff;
+  font-family: "bebas neue";
+  font-size: 18px;
+}
+
+span {
+  color: #135f30;
+  border-bottom: 1px solid #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 20px 40px;
+  max-width: 1440px;
+}
+
+header nav .menu, header nav li, header nav a {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+header nav .menu {
+  border: #135f30 1px solid;
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
+}
+header nav :hover {
+  color: #41d579;
+  transition: all 0.4s ease-in-out;
+}
+
+.main {
+  margin-top: 2rem;
+}
+.main h2 {
+  font-size: 4.8rem;
+  letter-spacing: 6px;
+}
+.main h2 .txt2 {
+  color: #fff;
+  font-size: 14rem;
+}
+.main .et {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main .et p {
+  margin: 3rem 0;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  line-height: 2.4rem;
+  font-size: 1.2rem;
+}
+.main .et .connect {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+  line-height: 2.4rem;
+  font-size: 1.2rem;
+  position: relative;
+  top: 2rem;
+}
+.main .et .connect a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 2rem;
+}
+.main p.text {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  color: #135f30;
+}/*# sourceMappingURL=dev.css.map */
